@@ -1,0 +1,21 @@
+# .github/workflows/test01.yaml
+name: test01
+on:
+  workflow_dispatch:  
+jobs:
+  test01:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v2
+     #Setup Python   
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Install software
+        run: sudo apt-get install -y chromium-browser
+      - name: Install all necessary packages
+        run: pip install requests beautifulsoup4 pandas webdriver-manager selenium pytest
+      - name: Run the Test01 script
+        run: pytest -rA
