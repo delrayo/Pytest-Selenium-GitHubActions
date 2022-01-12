@@ -8,5 +8,5 @@ from selenium.webdriver.chrome.service import Service
 @pytest.mark.usefixtures("setup")
 class TestExampleOne:
     def test_title(self):
-        self.driver.get('http://nytimes.com')
+        self.driver.get('https://www.delrayo.tech')
         print(self.driver.title)

@@ -18,4 +18,4 @@ jobs:
       - name: Install all necessary packages
         run: pip install requests beautifulsoup4 pandas webdriver-manager selenium pytest
       - name: Run the Test01 script
-        run: pytest -rA
+        run: pytest -v
