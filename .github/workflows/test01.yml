@@ -15,7 +15,7 @@ jobs:
           python-version: '3.9'
       - name: Install software
         run: sudo apt-get install -y chromium-browser
-      - name: Install all necessary packages
-        run: pip install requests beautifulsoup4 pandas webdriver-manager selenium pytest
-      - name: Run the Test01 script
-        run: pytest -v
+      - name: Install the necessary packages
+        run: pip install requests webdriver-manager selenium pytest
+      - name: Run the PytTest script
+        run: pytest -rA
