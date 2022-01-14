@@ -1,0 +1,8 @@
+
+
+====== WebDriver manager ======
+Current google-chrome version is 97.0.4692
+Get LATEST chromedriver version for 97.0.4692 google-chrome
+There is no [linux64] chromedriver for browser  in cache
+Trying to download new driver from https://chromedriver.storage.googleapis.com/97.0.4692.71/chromedriver_linux64.zip
+Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/97.0.4692.71]

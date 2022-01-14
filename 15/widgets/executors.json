@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://delrayo.github.io/Pytest-Selenium-GitHubActions",
+  "buildOrder" : 15,
+  "buildName" : "GitHub Actions Run #1695700287",
+  "buildUrl" : "https://github.com/delrayo/Pytest-Selenium-GitHubActions/actions/runs/1695700287",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://delrayo.github.io/Pytest-Selenium-GitHubActions/15/"
+} ]
