@@ -20,7 +20,7 @@ jobs:
       - name: Install software
         run: sudo apt-get install -y chromium-browser
       - name: Run the PytTest script
-        run: pytest -rA --alluredir=allure-results --browser remote
+        run: pytest -rA --alluredir=allure-results #--browser remote
       - name: Allure results
         uses: simple-elf/allure-report-action@master
         if: always()
