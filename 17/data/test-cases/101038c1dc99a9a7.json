@@ -1,12 +1,12 @@
 {
-  "uid" : "8459bc4d5eb69e5e",
+  "uid" : "101038c1dc99a9a7",
   "name" : "test_title_blog",
   "fullName" : "test_web01.TestExampleOne#test_title_blog",
   "historyId" : "cf39b672a8192d00f88e7947cd45007b",
   "time" : {
-    "start" : 1642124480048,
-    "stop" : 1642124480575,
-    "duration" : 527
+    "start" : 1642192158405,
+    "stop" : 1642192158910,
+    "duration" : 505
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1642124479313,
-      "stop" : 1642124480044,
-      "duration" : 731
+      "start" : 1642192157702,
+      "stop" : 1642192158404,
+      "duration" : 702
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,21 +31,21 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "1ac8461bfa32c88",
+      "uid" : "81953ef35348581",
       "name" : "log",
-      "source" : "1ac8461bfa32c88.txt",
+      "source" : "81953ef35348581.txt",
       "type" : "text/plain",
       "size" : 363
     }, {
-      "uid" : "41f5954c9f2069c1",
+      "uid" : "a4424a5122481fb8",
       "name" : "stdout",
-      "source" : "41f5954c9f2069c1.txt",
+      "source" : "a4424a5122481fb8.txt",
       "type" : "text/plain",
       "size" : 20
     }, {
-      "uid" : "ba11519c52707ba1",
+      "uid" : "23d7417fced97aae",
       "name" : "stderr",
-      "source" : "ba11519c52707ba1.txt",
+      "source" : "23d7417fced97aae.txt",
       "type" : "text/plain",
       "size" : 234
     } ],
@@ -58,9 +58,9 @@
   "afterStages" : [ {
     "name" : "setup::0",
     "time" : {
-      "start" : 1642124480576,
-      "stop" : 1642124480638,
-      "duration" : 62
+      "start" : 1642192158910,
+      "stop" : 1642192159018,
+      "duration" : 108
     },
     "status" : "passed",
     "steps" : [ ],
@@ -82,10 +82,10 @@
     "value" : "TestExampleOne"
   }, {
     "name" : "host",
-    "value" : "fv-az33-829"
+    "value" : "fv-az121-65"
   }, {
     "name" : "thread",
-    "value" : "3652-MainThread"
+    "value" : "3641-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -109,6 +109,6 @@
     "categories" : [ ],
     "tags" : [ "@pytest.mark.usefixtures('setup')" ]
   },
-  "source" : "8459bc4d5eb69e5e.json",
+  "source" : "101038c1dc99a9a7.json",
   "parameterValues" : [ ]
 }

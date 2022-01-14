@@ -1,6 +1,6 @@
 [ {
-  "buildOrder" : 16,
-  "reportUrl" : "https://delrayo.github.io/Pytest-Selenium-GitHubActions/16/",
+  "buildOrder" : 17,
+  "reportUrl" : "https://delrayo.github.io/Pytest-Selenium-GitHubActions/17/",
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 0,
