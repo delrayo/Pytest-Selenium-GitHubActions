@@ -1,7 +1,7 @@
 # .github/workflows/test01.yaml
 name: test01
 on:
-  workflow_dispatch:   
+  workflow_dispatch:  
 jobs:
   test01:
     runs-on: ubuntu-latest
@@ -21,7 +21,6 @@ jobs:
         run: sudo apt-get install -y chromium-browser
       - name: Run the PytTest script
         run: pytest -rA --alluredir=allure-results --browser remote
-      #Publishing to Allure in github Pages
       - name: Allure results
         uses: simple-elf/allure-report-action@master
         if: always()
