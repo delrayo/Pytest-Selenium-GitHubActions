@@ -13,28 +13,9 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.9'
-       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
       - name: Install software
         run: sudo apt-get install -y chromium-browser
+      - name: Install the necessary packages
+        run: pip install requests webdriver-manager selenium pytest
       - name: Run the PytTest script
-        run: pytest -rA --alluredir=allure-results --browser remote
-      #Publishing to Allure in github Pages
-      - name: Allure results
-        uses: simple-elf/allure-report-action@master
-        if: always()
-        id: allure-report
-        with:
-          allure_results: allure-results
-          allure_report: allure-report
-          gh_pages: gh-pages
-          allure_history: allure-history
-      - name: Deploy report to Github Pages
-        if: always()
-        uses: peaceiris/actions-gh-pages@v2
-        env:
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-history
+        run: pytest -rA
