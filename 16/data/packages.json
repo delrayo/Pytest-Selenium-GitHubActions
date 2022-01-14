@@ -4,26 +4,26 @@
     "name" : "test_web01",
     "children" : [ {
       "name" : "test_title",
-      "uid" : "2378e9990658e6f9",
+      "uid" : "d3192c7598761070",
       "parentUid" : "b39a5a6caa6e2b8417fdbe31326e9922",
       "status" : "passed",
       "time" : {
-        "start" : 1642124045209,
-        "stop" : 1642124045946,
-        "duration" : 737
+        "start" : 1642124477824,
+        "stop" : 1642124479236,
+        "duration" : 1412
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "test_title_blog",
-      "uid" : "8d1000525abd17fe",
+      "uid" : "8459bc4d5eb69e5e",
       "parentUid" : "b39a5a6caa6e2b8417fdbe31326e9922",
       "status" : "passed",
       "time" : {
-        "start" : 1642124046818,
-        "stop" : 1642124047394,
-        "duration" : 576
+        "start" : 1642124480048,
+        "stop" : 1642124480575,
+        "duration" : 527
       },
       "flaky" : false,
       "newFailed" : false,

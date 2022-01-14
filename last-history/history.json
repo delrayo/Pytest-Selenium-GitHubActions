@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2378e9990658e6f9",
-      "reportUrl" : "https://delrayo.github.io/Pytest-Selenium-GitHubActions/15//#testresult/2378e9990658e6f9",
+      "uid" : "d3192c7598761070",
+      "reportUrl" : "https://delrayo.github.io/Pytest-Selenium-GitHubActions/16//#testresult/d3192c7598761070",
       "status" : "passed",
       "time" : {
-        "start" : 1642124045209,
-        "stop" : 1642124045946,
-        "duration" : 737
+        "start" : 1642124477824,
+        "stop" : 1642124479236,
+        "duration" : 1412
       }
     } ]
   },
@@ -29,13 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8d1000525abd17fe",
-      "reportUrl" : "https://delrayo.github.io/Pytest-Selenium-GitHubActions/15//#testresult/8d1000525abd17fe",
+      "uid" : "8459bc4d5eb69e5e",
+      "reportUrl" : "https://delrayo.github.io/Pytest-Selenium-GitHubActions/16//#testresult/8459bc4d5eb69e5e",
       "status" : "passed",
       "time" : {
-        "start" : 1642124046818,
-        "stop" : 1642124047394,
-        "duration" : 576
+        "start" : 1642124480048,
+        "stop" : 1642124480575,
+        "duration" : 527
       }
     } ]
   }
