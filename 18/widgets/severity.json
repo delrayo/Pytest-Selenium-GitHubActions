@@ -1,0 +1,21 @@
+[ {
+  "uid" : "1e8472dc6e1e84f4",
+  "name" : "test_title_blog",
+  "time" : {
+    "start" : 1648008772570,
+    "stop" : 1648008773119,
+    "duration" : 549
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5be435f802491e68",
+  "name" : "test_title",
+  "time" : {
+    "start" : 1648008771056,
+    "stop" : 1648008771751,
+    "duration" : 695
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

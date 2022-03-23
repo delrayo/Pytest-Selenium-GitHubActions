@@ -1,6 +1,0 @@
-
-
-====== WebDriver manager ======
-Current google-chrome version is 97.0.4692
-Get LATEST chromedriver version for 97.0.4692 google-chrome
-Driver [/home/runner/.wdm/drivers/chromedriver/linux64/97.0.4692.71/chromedriver] found in cache
