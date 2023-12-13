@@ -14,7 +14,7 @@ jobs:
         with:
           python-version: '3.9'
       - name: Install chrome
-      - run: wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+        run: wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
       - name: Install the necessary packages
         run: pip install requests selenium pytest
       - name: Run the PytTest script
