@@ -9,7 +9,7 @@ def setup(request):
 
     chrome_options = webdriver.ChromeOptions()
     options = [
-    "--headless",
+    "--headless=new",
     "--disable-gpu",
     "--window-size=1920,1200",
     "--ignore-certificate-errors",
@@ -26,3 +26,6 @@ def setup(request):
     request.cls.driver = webdriver.Chrome()
     yield request.cls.driver
     request.cls.driver.close()
+
+
+options.add_argument("--start-maximized")
