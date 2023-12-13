@@ -27,5 +27,3 @@ def setup(request):
     yield request.cls.driver
     request.cls.driver.close()
 
-
-options.add_argument("--start-maximized")
