@@ -1,5 +1,6 @@
 import pytest
 from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 from selenium import webdriver
 
@@ -20,10 +21,8 @@ def setup(request):
     for option in options:
         chrome_options.add_argument(option)
 
-    request.cls.driver = webdriver.Chrome(options=chrome_options)
+    request.cls.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     
-
-    request.cls.driver = webdriver.Chrome()
     yield request.cls.driver
     request.cls.driver.close()
 
