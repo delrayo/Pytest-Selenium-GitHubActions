@@ -7,7 +7,7 @@ from selenium import webdriver
 @pytest.fixture()
 def setup(request):
 
-    chrome_options = Options()
+    chrome_options = webdriver.ChromeOptions()
     options = [
     "--headless",
     "--disable-gpu",
